@@ -1,2 +1,2 @@
 # Advanced-Web-Design
-please fucking god work
+Repository for my Advanced Web Design class.
