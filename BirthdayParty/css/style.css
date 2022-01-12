@@ -1,0 +1,196 @@
+body {
+  background-color: #EEEEEE;
+}
+
+#wrapper, .animsition {
+  margin: 24px auto;
+  width: 1200px;
+  /* border: 1px solid black; */
+  padding: 24px;
+  background-color: #EEEEEE;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  font-family: soleil, sans-serif;
+
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+header{
+  grid-column: span 8;
+  background-color: #FF5A5A;
+}
+    h1{
+      padding-top: 116px;
+      padding-left: 24px;
+      color: #EEEEEE;
+      font-size: 96pt;
+      padding-bottom: 0px;
+      line-height: 95%;
+      margin-bottom: 0;
+      /* letter-spacing: 2px; */
+      font-weight: 600;
+    }
+    h1 a:link,h1 a:visited,h1 a:hover{
+      display: block;
+      text-decoration: none;
+      color: #EEEEEE;
+    }
+
+nav{
+  grid-column: span 4;
+}
+  nav ul{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+    #about,#graphic,#audio{
+      margin-bottom: 24px;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    #video{
+      margin-bottom: 0;
+    }
+    #indicator{
+      padding-left: 12px;
+    }
+    nav li a,nav li a:visited,nav li a:link{
+      display: block;
+      font-size: 42pt;
+      font-weight: 500;
+      color: #EEEEEE;
+      text-decoration: none;
+      background-color: #FF5A5A;
+      margin-left: 0px;
+      /* padding: 8px; */
+      padding-left: 24px;
+      border: 8px solid #FF5A5A;
+      /* letter-spacing: 2px; */
+      transition: color .5s, background-color .5s;
+      }
+
+    nav li a:hover{
+      background-color: #EEEEEE;
+      color: #FF5A5A;
+      transition: color .5s, background-color .5s;
+    }
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  padding-top: 24px;
+}
+  #blurb{
+    font-size: 30pt;
+    font-weight: 500;
+    text-align: right;
+    color: #EEEEEE;
+    grid-column: span 11;
+    background-color: #FF5A5A;
+    padding: 24px;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -24px;
+    }
+  #videoplayer{
+    padding: 36px;
+    /* border: 24px solid #FF5A5A; */
+    background-color: #FF5A5A;
+    margin-left: 0;
+  }
+  .left{
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #FF5A5A;
+    padding-bottom: 0;
+  }
+    #somewhere{
+      padding: 24px;
+      margin-bottom: 0;
+    }
+    .left h3{
+    margin-top: 0px;
+    grid-column: span 6;
+    color: #EEEEEE;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    font-size: 24pt;
+    margin-bottom: 0px;
+      /* line-height: 150%; */
+    }
+    .right{
+      grid-column: span 6;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      background-color: #FF5A5A;
+      padding-bottom: 0;
+    }
+      #explore{
+    width: 540px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+      }
+    .right h3{
+    margin-top: 0px;
+    padding-top: 12px;
+    grid-column: span 6;
+    color: #EEEEEE;
+    padding-left: 24px;
+    font-size: 24pt;
+      }
+
+#arrow1,#arrow2,#arrow3,#arrow4,#arrow5,#arrow6{
+  grid-column: span 1;
+  padding-left: 24px;
+  /* padding-top: 12px; */
+}
+#rworks{
+  grid-column: span 6;
+  text-align: center;
+  color: #FF5A5A;
+  font-size: 42pt;
+  margin-top: -24px;;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+footer{
+  background-color: #FF5A5A;
+  grid-column: span 12;
+  padding: 24px;
+  margin-top: 24px;
+}
+  footer h2{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 16pt;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+    footer a p,#vsco,#vsco:link,#vsco:visited,#vsco:hover{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0;
+      color: #EEEEEE;
+      font-size: 16pt;
+      text-align: center;
+      text-decoration: none;
+    }

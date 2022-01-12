@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Miles' Site</title>
+	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script src="https://kit.fontawesome.com/eaa5bf7492.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/mhm0wuf.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/animsition.css">
+	<script src="js/animsition.js"></script>
+</head>
+<body>
+	<div class='animsition'>
+		<header>
+			<h1><a href="mysite.html" class="animsition-link">MILES HOWLEY</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li id="about"><a href="#" class="animsition-link">ABOUT</a></li>
+				<li id="graphic"><a href="#" class="animsition-link">GRAPHIC</a></li>
+				<li id="audio"><a href="#" class="animsition-link">AUDIO</a></li>
+				<li id="video_active"><a href="#" class="animsition-link">VIDEO          <i id="indicator" class="fas fa-caret-left"></i></a>
+			</ul>
+		</nav>
+		<main>
+			<p id="blurb">A short video demonstrating basic text animation in After Effects</p>
+			<iframe id="videoplayer" width="800" height="500" src="https://www.youtube.com/embed/vRgApFpp3iA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</main>
+		<footer>
+			<h2>Copyright Miles Howley - 2020</h2>
+			<a id="vsco" href="https://vsco.co/-miles-/gallery" target="_blank"><p><i class="fas fa-camera"></i>         VSCO</p></a>
+
+		</footer>
+		<script>
+	  $(document).ready(function() {
+	    $('.animsition').animsition();
+	  });
+	  </script>
+	</div>
+</body>
+</html>
