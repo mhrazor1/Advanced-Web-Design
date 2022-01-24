@@ -3,6 +3,7 @@ let wind = 0;
 let fires = [];
 let canvas2;
 function setup(resize) {
+  rectMode(CENTER);
   var canvas = createCanvas(windowWidth, 650);
   //var canvas2 = createCanvas(500, 650);
   canvas.parent('sketch-holder');
@@ -21,12 +22,16 @@ function draw() {
     wind = map(wind,0,100,0,33, true);
   }
   fires[0].display();
-
+  fill('black');
+  rect(fires[0].pos.x,height-20,10,40);
+  circle(fires[0].pos.x,height-40,10);
+  fill('white')
+  rect(fires[0].pos.x,height,40,40);
 }
 
 class Flame{
   constructor(size) {
-    this.pos = createVector(width/6,height-50);
+    this.pos = createVector(width/5,height-50);
     this.motes = [];
   }
   display() {

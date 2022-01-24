@@ -4,7 +4,7 @@ body {
 }
 
 header{
-  padding-left: 48px;
+  padding-left: 72px;
   padding-right: 0;
   margin-right: 0;
   display: grid;
@@ -20,12 +20,17 @@ header{
       /* letter-spacing: 2px; */
       font-weight: 800;
       font-style: italic;
+      text-shadow: #f6d45b 0px 0 20px;
     }
-    h1 a:link,h1 a:visited,h1 a:hover{
+    h1 a:link,h1 a:visited{
+      text-shadow: #f6d45b 0px 0 20px;
       display: block;
       text-decoration: none;
       color: #FF5A5A;
       font-style: italic;
+    }
+    h1 a:hover{
+      text-shadow: #63cb67 0px 0 10px;
     }
     h2{
       grid-column: span 3;
@@ -34,17 +39,23 @@ header{
       font-size: 72pt;
       /* letter-spacing: 2px; */
       font-weight: 600;
+      text-shadow: #f6d45b 0px 0 10px;
     }
-    h2 a:link,h2 a:visited,h2 a:hover{
+    h2 a:link,h2 a:visited{
       display: block;
       text-decoration: none;
       color: #FF5A5A;
+      text-shadow: #f6d45b 0px 0 10px;
+    }
+    h2 a:hover{
+      text-shadow: #63cb67 0px 0 10px;
     }
     #art{
       grid-column: 4/6;
       grid-row: 2/span 5;
-      width: 540px;
+      width: 500px;
       border: 5px outset #FF5A5A;
+      margin-left: 24px;
     }
     #sketch-holder{
       z-index: -1;
