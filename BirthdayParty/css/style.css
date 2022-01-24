@@ -16,7 +16,7 @@ header{
       grid-row: 2;
       grid-column: span 3;
       color: #FF5A5A;
-      font-size: 72pt;
+      font-size: 5rem;
       /* letter-spacing: 2px; */
       font-weight: 800;
       font-style: italic;
@@ -36,7 +36,7 @@ header{
       grid-column: span 3;
       grid-row: 3;
       color: #FF5A5A;
-      font-size: 72pt;
+      font-size: 5rem;
       /* letter-spacing: 2px; */
       font-weight: 600;
       text-shadow: #f6d45b 0px 0 10px;
@@ -55,7 +55,7 @@ header{
       grid-row: 2/span 5;
       width: 500px;
       border: 5px outset #FF5A5A;
-      margin-left: 24px;
+      margin-left: 18px;
     }
     #sketch-holder{
       z-index: -1;
