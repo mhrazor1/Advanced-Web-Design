@@ -1,0 +1,250 @@
+.circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius:50px;
+  opacity: .66;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+}
+
+@keyframes circle1-ani {
+  0%   { top: 0%; background-color: #ff0000 }
+  33%  { background-color: #ffff00 }
+  50%  { background-color: #00ff00 }
+  66%  { background-color: #00ffff}
+  100% { top: 80%; background-color: #0000ff}
+}
+
+.circle2 {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #ff0000;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: .2s;
+}
+
+.circle3 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: .4s;
+}
+.circle4 {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: .6s;
+}
+.circle5 {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: .8s;
+}
+.circle6 {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 1s;
+}
+.circle7 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 1.2s;
+}
+.circle8 {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 1.4s;
+}
+.circle9 {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 1.6s;
+}
+.circle10 {
+  position: absolute;
+  top: 0;
+  left: 450px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 1.8s;
+}
+.circle11 {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 50px;
+  height: 50px;
+  border-radius:50px;
+  opacity: .66;
+  background-color: #0000ff;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 2s;
+}
+
+.circle12 {
+  position: absolute;
+  top: 0;
+  left: 550px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #ff0000;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 2.2s;
+}
+
+.circle13 {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 2.4s;
+}
+.circle14 {
+  position: absolute;
+  top: 0;
+  left: 650px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 2.6s;
+}
+.circle15 {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 2.8s;
+}
+.circle16 {
+  position: absolute;
+  top: 0;
+  left: 750px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 3s;
+}
+.circle17 {
+  position: absolute;
+  top: 0;
+  left: 800px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 3.2s;
+}
+.circle18 {
+  position: absolute;
+  top: 0;
+  left: 850px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 3.4s;
+}
+.circle19 {
+  position: absolute;
+  top: 0;
+  left: 900px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 3.6s;
+}
+.circle20 {
+  position: absolute;
+  top: 0;
+  left: 950px;
+  width: 50px;
+  height: 50px;
+  border-radius:500px;
+  opacity: .66;
+  background-color: #00ff00;
+  animation: circle1-ani 3s ease-in-out infinite alternate;
+  animation-delay: 3.8s;
+}
