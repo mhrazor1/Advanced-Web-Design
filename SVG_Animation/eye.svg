@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588.48 588.48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="outer3">
+    <rect id="outer1" class="cls-1" x="294.44" y="294.44" width="411.12" height="411.12" transform="translate(294.24 1001.35) rotate(-135)"/>
+  </g>
+  <g id="outer2">
+    <rect id="outer2-2" data-name="outer2" class="cls-1" x="294.44" y="294.44" width="411.12" height="411.12" transform="translate(294.24 1001.35) rotate(-135)"/>
+  </g>
+  <g id="outer1-2" data-name="outer1">
+    <rect id="outer3-2" data-name="outer3" class="cls-1" x="294.44" y="294.44" width="411.12" height="411.12" transform="translate(294.24 1001.35) rotate(-135)"/>
+  </g>
+  <g id="inner3">
+    <circle id="inner1" class="cls-1" cx="294.24" cy="294.24" r="47.15"/>
+  </g>
+  <g id="inner2">
+    <circle id="inner2-2" data-name="inner2" class="cls-1" cx="294.24" cy="294.24" r="47.15"/>
+  </g>
+  <g id="inner1-2" data-name="inner1">
+    <circle id="inner3-2" data-name="inner3" class="cls-1" cx="294.24" cy="294.24" r="47.15"/>
+  </g>
+</svg>

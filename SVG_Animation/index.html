@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Snap</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="../../libs/snap.svg-min.js"></script>
+        <script src="../../libs/paper.js"></script>
+        <script>
+        window.onload = function () {
+
+            var i = Snap.select("#svg"),
+                in1 = i.select("#inner1-2"),
+                in2 = i.select("#inner2"),
+                in3 = i.select("#inner3"),
+                out1 = i.select("#outer1"),
+                out2 = i.select("#outer2"),
+                out3 = i.select("#outer3"),
+                timer;
+
+            function open() {
+              clearTimeout(timer);
+
+                out2.animate({
+                    transform: "r-30"}, 100, mina.easeinout);
+                out3.animate({
+                    transform: "r30"}, 100, mina.easeinout);
+                in1.animate({transform: "t0,24"}, 100, mina.easeinout);
+                in2.animate({transform: "t20.8,-12"}, 100, mina.easeinout);
+                in3.animate({transform: "t-20.8,-12"}, 100, mina.easeinout);
+                  }
+            function close() {
+              clearTimeout(timer);
+
+                out2.animate({
+                    transform: "r0"}, 100, mina.easeinout);
+                out3.animate({
+                    transform: "r0"}, 100, mina.easeinout);
+
+                  in1.animate({transform: "t0,0"}, 100, mina.easeinout);
+                  in2.animate({transform: "t0,0"}, 100, mina.easeinout);
+                  in3.animate({transform: "t0,0"}, 100, mina.easeinout);
+                }
+                  timer = setTimeout(close, 50);
+
+
+            i.hover(open,
+                function () {
+                    timer = setTimeout(close, 200);
+                  })
+        };
+        </script>
+    </head>
+    <body>
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588.48 588.48" width="500px">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #ffffff;
+              stroke-miterlimit: 10;
+              stroke-width: 5px;
+            }
+          </style>
+        </defs>
+        <g id="outer3">
+          <rect id="outer1" class="cls-1" x="294.44" y="294.44" width="411.12" height="411.12" transform="translate(294.24 1001.35) rotate(-135)"/>
+        </g>
+        <g id="outer2">
+          <rect id="outer2-2" data-name="outer2" class="cls-1" x="294.44" y="294.44" width="411.12" height="411.12" transform="translate(294.24 1001.35) rotate(-135)"/>
+        </g>
+        <g id="outer1-2" data-name="outer1">
+          <rect id="outer3-2" data-name="outer3" class="cls-1" x="294.44" y="294.44" width="411.12" height="411.12" transform="translate(294.24 1001.35) rotate(-135)"/>
+        </g>
+        <g id="inner3">
+          <circle id="inner1" class="cls-1" cx="294.24" cy="294.24" r="60"/>
+        </g>
+        <g id="inner2">
+          <circle id="inner2-2" data-name="inner2" class="cls-1" cx="294.24" cy="294.24" r="60"/>
+        </g>
+        <g id="inner1-2" data-name="inner1">
+          <circle id="inner3-2" data-name="inner3" class="cls-1" cx="294.24" cy="294.24" r="60"/>
+        </g>
+      </svg>
+
+    </body>
+</html>
