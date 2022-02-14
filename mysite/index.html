@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Miles' Site</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/eaa5bf7492.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/mhm0wuf.css">
+</head>
+<body>
+		<header>
+			<h1><a href="index.html">MILES HOWLEY</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li id="about"><a href="#" class="animsition-link">ABOUT</a></li>
+				<li id="graphic"><a href="#" class="animsition-link">GRAPHIC</a></li>
+				<li id="audio"><a href="#" class="animsition-link">AUDIO</a></li>
+				<li id="video"><a href="video.html" class="animsition-link">VIDEO</a></li>
+			</ul>
+		</nav>
+		<main>
+			<img id="arrow1" src="images\Group 4.png" alt="arrow">
+			<img id="arrow2" src="images\Group 4.png" alt="arrow">
+			<img id="arrow3" src="images\Group 4.png" alt="arrow">
+			<h2 id="rworks">RANDOM WORKS</h2>
+			<img id="arrow4" src="images\Group 4.png" alt="arrow">
+			<img id="arrow5" src="images\Group 4.png" alt="arrow">
+			<img id="arrow6" src="images\Group 4.png" alt="arrow">
+			<div class="left">
+				<img id="somewhere" src="images\DSC_0476.png" alt="rock formation">
+				<h3>OUT IN THE HILLS<br>Near Grand Junction, Colorado</h3>
+			</div>
+			<div class="right">
+				<h3>LIMBER GROVE TRAIL<br>Fairplay, Colorado</h3>
+				<img id="explore" src="images\DSC0138.jpg" alt="wood">
+
+			</div>
+
+		</main>
+		<footer>
+			<h2>Copyright Miles Howley - 2022</h2>
+			<a id="vsco" href="https://vsco.co/-miles-/gallery" target="_blank"><p><i class="fas fa-camera"></i>         VSCO</p></a>
+		</footer>
+</body>
+<canvas id="canvas1" width="792" height="466"></canvas>
+<script type="text/javascript" defer>
+	var cv1 = document.getElementById("canvas1");
+
+	if (cv1.getContext)
+	{
+		var ctx1 = cv1.getContext("2d");
+		document.getElementById("canvas1").onmousemove = function(event) {track(event)};
+	}
+
+	function track(e)
+	{
+		var x = e.layerX;
+		var y = e.layerY;
+		ctx1.clearRect(0, 0, cv1.width, cv1.height);
+		ctx1.fillStyle = "#EEEEEE";
+		ctx1.beginPath();
+		ctx1.arc(x, y, 20, 0, Math.PI*2);
+		ctx1.fill();
+	}
+</script>
+</html>
