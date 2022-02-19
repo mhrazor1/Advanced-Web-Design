@@ -1,0 +1,204 @@
+body {
+  /* margin: 24px auto; */
+  /* width: 1200px; */
+  /* border: 1px solid black; */
+  padding: 1rem;
+  background-color: #EEEEEE;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* grid-column-gap: 24px; */
+  font-family: soleil, sans-serif;
+}
+
+header{
+  grid-column: span 8;
+  background-color: #FF5A5A;
+  z-index: 0;
+  margin-right: 1rem;
+}
+    h1{
+      padding-top: 8rem;
+      padding-left: 1rem;
+      color: #EEEEEE;
+      font-size: 6em;
+      padding-bottom: 1rem;
+      line-height: 95%;
+      margin-bottom: 0;
+      /* letter-spacing: 2px; */
+      font-weight: 600;
+      z-index: 2;
+    }
+    h1 a:link,h1 a:visited,h1 a:hover{
+      display: block;
+      text-decoration: none;
+      color: #EEEEEE;
+      z-index: 2;
+    }
+    #canvas1{
+      position: absolute;
+      z-index: 0;
+      grid-column: span 8;
+    }
+
+    #about,#graphic,#audio{
+      margin-bottom: 1rem;
+      grid-column: span 1;
+    }
+    #video{
+      margin-bottom: 1rem;
+    }
+    #indicator{
+      padding-left: 12px;
+    }
+    nav{display: block; margin-top: 0px; padding-left: 1rem; font-size: 1em}
+    nav a,nav a:visited,nav a:link{
+      display: block;
+      grid-column: span 4;
+      font-size: 3em;
+      font-weight: 500;
+      color: #EEEEEE;
+      text-decoration: none;
+      background-color: #FF5A5A;
+      /* padding: 8px; */
+      padding-left: 1rem;
+      border: 8px solid #FF5A5A;
+      /* letter-spacing: 2px; */
+      transition: color .5s, background-color .5s;
+      }
+
+    nav a:hover{
+      background-color: #EEEEEE;
+      color: #FF5A5A;
+      transition: color .5s, background-color .5s;
+    }
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  padding-top: 24px;
+}
+  #blurb{
+    font-size: 30pt;
+    font-weight: 500;
+    text-align: right;
+    color: #EEEEEE;
+    grid-column: span 11;
+    background-color: #FF5A5A;
+    padding: 24px;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -24px;
+    }
+  #videoplayer{
+    padding: 36px;
+    /* border: 24px solid #FF5A5A; */
+    background-color: #FF5A5A;
+    margin-left: 0;
+  }
+  .left{
+    grid-column: span 6;
+    display: grid;
+    background-color: #FF5A5A;
+    padding-bottom: 0;
+  }
+    #somewhere{
+      max-width: 100%;
+      padding: 24px;
+      margin-bottom: 0;
+    }
+    .left h3{
+    margin-top: 0px;
+    grid-column: span 6;
+    color: #EEEEEE;
+    /* padding-top: 24px; */
+    /* padding-right: 24px; */
+    /* padding-left: 24px; */
+    /* padding-bottom: 12px; */
+    font-size: 24pt;
+    /* margin-bottom: 0px; */
+      /* line-height: 150%; */
+    }
+    .right{
+      grid-column: span 6;
+      display: grid;
+      background-color: #FF5A5A;
+      padding-bottom: 0;
+    }
+      #explore{
+        max-width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+    .right h3{
+    margin-top: 0px;
+    padding-top: 12px;
+    grid-column: span 6;
+    color: #EEEEEE;
+    padding-left: 24px;
+    font-size: 24pt;
+      }
+
+#arrow1,#arrow2,#arrow3,#arrow4,#arrow5,#arrow6{
+  grid-column: span 1;
+  padding-left: 24px;
+  height: 2rem;
+  /* padding-top: 12px; */
+}
+#rworks{
+  grid-column: span 6;
+  text-align: center;
+  color: #FF5A5A;
+  font-size: 3rem;
+  margin-top: -24px;;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  line-height: 90%;
+  padding-top: 1rem;
+}
+
+footer{
+  background-color: #FF5A5A;
+  grid-column: span 12;
+  padding: 24px;
+  margin-top: 24px;
+}
+  footer h2{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+    footer a p,#vsco,#vsco:link,#vsco:visited,#vsco:hover{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0;
+      color: #EEEEEE;
+      font-size: 1em;
+      text-align: center;
+      text-decoration: none;
+    }
+
+@media all and (min-width: 0rem){
+  body{min-width: 600px}
+  header{grid-column: span 12;}
+  nav{clear: both; margin-top: 1rem;grid-column: span 12; display: grid; grid-template-columns: repeat(4,1fr); padding-left: 0rem;}
+  nav a{grid-column: span 2;}
+  #about{grid-column: span 2; margin-right: 1rem}
+  #graphic{grid-column: span 2; margin-right: 1rem}
+  #audio{grid-column: span 2; margin-right: 1rem}
+  #video{grid-column: span 2; margin-right: 1rem}
+}
+
+@media all and (min-width: 45rem){
+  body{max-width: 1200px; margin: 0rem auto;}
+  header{grid-column: span 8;}
+  nav{clear:both; grid-column: span 4; margin-top: 0px; padding-left: 0rem; display: block;}
+  #video{margin-bottom: 0}
+}
