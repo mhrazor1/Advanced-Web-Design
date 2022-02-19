@@ -187,7 +187,7 @@ footer{
 
 @media all and (min-width: 0rem){
   body{}
-  header{grid-column: span 12;}
+  header{grid-column: span 12; min-width: 448px;}
   nav{clear: both; margin-top: 1rem;grid-column: span 12; display: grid; grid-template-columns: repeat(4,1fr); padding-left: 0rem;}
   nav a{grid-column: span 2;}
   #about{grid-column: span 2; margin-right: 1rem}
@@ -196,9 +196,9 @@ footer{
   #video{grid-column: span 2; margin-right: 1rem}
 }
 
-@media all and (min-width: 45rem){
+@media all and (min-width: 50rem){
   body{max-width: 1200px; margin: 0rem auto;}
-  header{grid-column: span 8;}
+  header{grid-column: span 8; min-width: 448px;}
   nav{clear:both; grid-column: span 4; margin-top: 0px; padding-left: 0rem; display: block;}
   #video{margin-bottom: 0}
 }
