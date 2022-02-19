@@ -186,7 +186,7 @@ footer{
     }
 
 @media all and (min-width: 0rem){
-  body{min-width: 600px}
+  body{}
   header{grid-column: span 12;}
   nav{clear: both; margin-top: 1rem;grid-column: span 12; display: grid; grid-template-columns: repeat(4,1fr); padding-left: 0rem;}
   nav a{grid-column: span 2;}
