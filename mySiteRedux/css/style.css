@@ -1,6 +1,6 @@
 :root {
-  --main-color: #FF5A5A;
-  --bg-color: #222222;
+  --main-color: #FF6B6B;
+  --bg-color: #0A0A0A;
 }
 
 body{
@@ -19,7 +19,9 @@ body{
     padding-left: 1.5rem;
     align-self: flex-start;
     margin-bottom: 0.5rem;
-    font-size: 1.25rem;}
+    font-size: 1.25rem;
+    color: var(--bg-color);
+  }
   h1{
     background-color: var(--main-color);
     height: 16rem;
@@ -126,6 +128,7 @@ body{
   }
   footer h4{margin-bottom: 0px;}
   #vsco,#vsco:link,#vsco:visited,#vsco:hover{text-decoration: none; color: var(--bg-color);}
+  #copy{font-size: 1rem;}
 }
 
 @media all and (min-width: 576px){
