@@ -52,7 +52,7 @@ body{
     border: 0.33rem solid var(--main-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    padding-bottom: 2px;
   }
   nav a:hover{
     background-color: var(--bg-color);
@@ -60,7 +60,7 @@ body{
     border: 0.33rem solid;
     transition: all .33s;
   }
-  #indicator{font-size: 1.25rem; align-self: center; margin: auto; margin-left: 0px; padding-left: 1rem;}
+  #indicator{font-size: 1rem; align-self: center; margin: auto; margin-left: 0px; padding-left: 1rem; margin-top: 10px;}
   #title{
     font-size: 4rem;
     line-height: 4rem;
@@ -75,12 +75,27 @@ body{
     margin-bottom: 1rem;
     padding: 1rem;
     background-color: var(--main-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
-  .blurb{
+  .audioPost{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: var(--main-color);
+  font-size: 1rem;
+  }
+  .blurb{margin-top: 0;}
+  .blurb,.embed{
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 0.5rem;
+  }
+  .embed{padding-bottom: 1rem;}
+  #SFXNarTitle{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .video{
     position: relative;
@@ -97,6 +112,10 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
+  }
+  .audioPlayer{
+    width: 75%;
+    padding: 1rem;
   }
   #rworks{
     display: grid;
@@ -136,12 +155,14 @@ body{
 @media all and (min-width: 576px){
   #title{font-size: 5rem; line-height: 5rem;}
   nav{font-size: 2rem;}
+  #indicator{font-size: 1.25rem; margin-top: auto;}
   h1{height: 16rem;}
   #arrow3,#arrow4{display: inline;}
   #rworksText{font-size: 1.5rem;}
   .arrows{font-size: 1.25rem;}
-  footer{font-size: 2rem;}
+  .videoPost{font-size: 1.5rem;}
   .left,.right{font-size: 1.5rem;}
+  footer{font-size: 2rem;}
 }
 
 @media all and (min-width: 825px){
@@ -172,6 +193,11 @@ body{
 }
 
 @media all and (min-width: 960px){
-  .blurb{font-size: 2rem;}
+  .videoPost,.audioPost{font-size: 2rem;}
+  .audio,.blurb,.embed,#SFXNarTitle{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #SFXNarTitle{font-size: 3rem; margin-bottom: 0rem;}
   nav{font-size: 3rem;}
 }
